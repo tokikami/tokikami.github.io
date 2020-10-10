@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* 共通部分 */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.8;
+  color: #660000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+/* 共通部分 */
+
+/* header */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.page-header h1 a {
+  color: #660000;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #660000;
+}
+
+.main-nav a:hover {
+  color: #4699ca;
+}
+/* header */
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 26px 0;
+  margin-top: 100px;
+}
+
+footer p {
+  font-size: 1rem;
+}
+/* footer */
