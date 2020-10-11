@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* 自己紹介 */
+.aboutme {
+  font-size: 100%;
+  width: auto;
+  height: 500px;
+}
+
+.aboutme h1 {
+  margin: 15px 0;
+  padding: 5px 0;
+  border-top: 3px solid #4699ca;
+  border-bottom: 3px solid #4699ca;
+}
+
+.aboutme h2 {
+  padding: 5px;
+  margin: 10px 0;
+  background: transparent;
+  border-left: 5px solid #4699ca;
+}
+
+.aboutme h3 {
+  font-weight: normal;
+}
