@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.works h1 {
+  color: #660000;
+  margin: 15px 0;
+  padding: 5px 0;
+  border-top: 3px solid #4699ca;
+  border-bottom: 3px solid #4699ca;
+}
+
+.works h2 {
+  padding: 5px;
+  margin: 10px 0;
+  background: transparent;
+  border-left: 5px solid #4699ca;
+}
+
+.works h3 {
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.works h3 a {
+  color: #660000;
+}
+
+.works h3 a:hover {
+  color: #4699ca;
+}
